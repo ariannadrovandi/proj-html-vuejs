@@ -1,8 +1,8 @@
 <template>
     <div class="container d-flex flex-row justify-content-between align-items-center">
         <div class="left d-flex flex-row">
-            <button class="btn">Download App <span class="badge ad-badge">iOS</span></button>
-            <button class="btn">Advertise with us</button>
+            <button class="btn ad-fs">Download App <span class="badge ad-badge">iOS</span></button>
+            <button class="btn ad-fs">Advertise with us</button>
         </div>
         <div class="right">
             <ul class="d-flex flex-row ">
@@ -23,6 +23,9 @@
 </script>
 
 <style lang="scss" scoped>
+    .ad-fs{
+        font-size: 13px;
+    }
     ul{
         list-style: none;
     }
