@@ -1,10 +1,8 @@
 <template>
     <div class="container d-flex flex-row justify-content-between align-items-center">
-        <div class="left">
-            <ul class="d-flex flex-row">
-                <li><button class="btn">Download App <span class="badge ad-badge">iOS</span></button></li>
-                <li><button class="btn">Advertise with us</button></li>
-            </ul>
+        <div class="left d-flex flex-row">
+            <button class="btn">Download App <span class="badge ad-badge">iOS</span></button>
+            <button class="btn">Advertise with us</button>
         </div>
         <div class="right">
             <ul class="d-flex flex-row ">
@@ -27,12 +25,12 @@
 <style lang="scss" scoped>
     ul{
         list-style: none;
-        .ad-badge{
-            background-color: orange;
-            color: white;
-        };
-        i{
-            color: gray;
-        }
+    }
+    .ad-badge{
+        background-color: orange;
+        color: white;
+    }
+    i{
+        color: gray;
     }
 </style>
