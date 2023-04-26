@@ -19,7 +19,9 @@
 
 <style lang="scss" scoped>
     header{
-        
+        width: 100%;
+        height: 250px;
         background-color: #fff;
+        border: 1px solid black;
     }
 </style>
