@@ -1,11 +1,11 @@
 <template>
-    <!-- <div class="container d-flex flex-column justify-content-around align-items-center">
+    <div class="container d-flex flex-column justify-content-around align-items-center">
         <div class="image">
             <img src="../../public/img/avada-food-logo.png" alt="logo">
         </div>
-        <div class="navbar">
+        <div class="navbar m-3 p-0">
             <nav>
-                <ul class="d-flex flex-row">
+                <ul class="d-flex flex-row m-0 p-0">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Recipes</a></li>
                     <li><a href="#">Places</a></li>
@@ -16,7 +16,7 @@
                 </ul>
             </nav>
         </div>
-    </div> -->
+    </div>
 </template>
 
 <script>
@@ -31,11 +31,20 @@
 </script>
 
 <style lang="scss" scoped>
-    // ul{
-    //     list-style: none;
-    //     li{
-    //         margin-left: 35px;
-    //         margin-right: 35px;
-    //     }
-    // }
+    ul{
+        list-style: none;
+        li{
+            margin-left: 35px;
+            margin-right: 35px;
+            border-bottom: 3px solid transparent;
+            :hover{
+                color: orange;
+                border-bottom: 3px solid orange;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
 </style>
