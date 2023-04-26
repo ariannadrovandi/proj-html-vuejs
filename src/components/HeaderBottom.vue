@@ -1,7 +1,7 @@
 <template>
     <div class="container d-flex flex-column justify-content-around align-items-center">
         <div class="image">
-            <img src="../../public/img/avada-food-logo.png" alt="logo">
+            <img src="/img/avada-food-logo.png" alt="logo">
         </div>
         <div class="navbar m-3 p-0">
             <nav>
