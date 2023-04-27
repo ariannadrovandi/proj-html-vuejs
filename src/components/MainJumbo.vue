@@ -28,9 +28,14 @@
         background-color: orange;
         text-align: center;
         position: absolute;
-        left: 47%;
+        left: 46%;
         top: 28%;
         z-index: 300;
+        p{
+            margin: 0;
+            padding: 5px;
+            font-size: 14px;
+        }
     }
     .title{
         position: absolute;
