@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbo">
+    <div class="ad-container">
         <div class="image-jumbo">
             <div class="ad-badge badge">
                 <p>TODAY'S PICK</p>
@@ -9,10 +9,10 @@
                 <p>March 25, 2019</p>
             </div>
         </div>
-        <div class="foodie container">
+        <!-- <div class="foodie container">
             <h2 class="m-3 text-uppercase fs-6 text-center">foodie journal</h2>
-            <div class="d-flex flex-row" v-for="(item, index) in store.foodieJournal" :key="item.id" :title="item.title" :credits="item.credits" :image="item.image">
-                <div class="card">
+            <div v-for="(item, index) in store.foodieJournal" :key="item.id" :title="item.title" :credits="item.credits" :image="item.image">
+                <div class="card m-2">
                     <div class="card-image">
                         <img :src="(image)" :alt="title">
                     </div>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -44,9 +44,10 @@
 </script>
 
 <style lang="scss" scoped>
-    .jumbo{
+    .ad-container{
         width: 100%;
         background-color: #f5f5f1;
+        border: 1px solid black;
     }
     .image-jumbo{
         width: 100%;
@@ -71,19 +72,19 @@
     .title{
         position: absolute;
         top: 30%;
-        left: 30%;
+        left: 34%;
         background-color: white;
         border-radius: 8px;
         font-family: 'Playfair Display', serif;
         text-align: center;
         z-index: 100;
     }
-    .foodie{
-        border: 1px solid black;
-        background-color: white;
-        position: absolute;
-        top: 100%;
-        left: 6%;
-    }
+    // .foodie{
+    //     border: 1px solid black;
+    //     background-color: white;
+    //     position: absolute;
+    //     top: 90%;
+    //     left: 6%;
+    // }
 
 </style>

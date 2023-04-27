@@ -1,7 +1,7 @@
 <template>
   <main>
     <MainJumbo/>
-    <MainPopularRecipes/>
+    <MainPopularRecipesVue/>
   </main>
 </template>
 
@@ -12,7 +12,7 @@
         name: 'MainComponent',
         components:{
             MainJumbo,
-            MainPopularRecipes,
+            MainPopularRecipesVue,
         }
     }
 </script>
