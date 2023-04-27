@@ -23,5 +23,6 @@
         height: 250px;
         background-color: #fff;
         border: 1px solid black;
+        z-index: 10000;
     }
 </style>
