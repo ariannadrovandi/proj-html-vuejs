@@ -1,25 +1,56 @@
 <template>
-    <div class="image-jumbo">
-        <div class="ad-badge badge">
-            <p>TODAY'S PICK</p>
+    <div class="jumbo">
+        <div class="image-jumbo">
+            <div class="ad-badge badge">
+                <p>TODAY'S PICK</p>
+            </div>
+            <div class="title p-5 pb-3">
+                <h1 class="pb-3 m-0 mb-2">Food Corner: Top Japanese <br> Restaurants for Sushi</h1>
+                <p>March 25, 2019</p>
+            </div>
         </div>
-        <div class="title p-5 pb-3">
-            <h1 class="pb-3 m-0 mb-2">Food Corner: Top Japanese <br> Restaurants for Sushi</h1>
-            <p>March 25, 2019</p>
+        <div class="foodie container">
+            <h2 class="m-3 text-uppercase fs-6 text-center">foodie journal</h2>
+            <div class="d-flex flex-row" v-for="(item, index) in store.foodieJournal" :key="item.id" :title="item.title" :credits="item.credits" :image="item.image">
+                <div class="card">
+                    <div class="card-image">
+                        <img :src="(image)" :alt="title">
+                    </div>
+                    <div class="my-4 d-flex flex-column align-items-center justify-content-center">
+                        <p>{{ title }}</p>
+                        <p>{{ credits }}</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+    import {store} from '../data/store';
     export default{
-        name: 'MainJumbo'
+        name: 'MainJumbo',
+        props: [
+            'title',
+            'credits',
+            'image'
+        ],
+        data(){
+            return {
+                store,
+            }
+        }
     }
 </script>
 
 <style lang="scss" scoped>
+    .jumbo{
+        width: 100%;
+        background-color: #f5f5f1;
+    }
     .image-jumbo{
         width: 100%;
-        height: 600px;
+        height: 650px;
         position: relative;
         background-image: url('/img/single-post-img3-1200x790.jpg');
         background-size: cover;
@@ -42,9 +73,17 @@
         top: 30%;
         left: 30%;
         background-color: white;
+        border-radius: 8px;
         font-family: 'Playfair Display', serif;
         text-align: center;
         z-index: 100;
+    }
+    .foodie{
+        border: 1px solid black;
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 6%;
     }
 
 </style>
