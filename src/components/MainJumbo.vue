@@ -9,32 +9,23 @@
                 <p>March 25, 2019</p>
             </div>
         </div>
-        <!-- <div class="foodie container">
-            <h2 class="m-3 text-uppercase fs-6 text-center">foodie journal</h2>
-            <div v-for="(item, index) in store.foodieJournal" :key="item.id" :title="item.title" :credits="item.credits" :image="item.image">
-                <div class="card m-2">
-                    <div class="card-image">
-                        <img :src="(image)" :alt="title">
-                    </div>
-                    <div class="my-4 d-flex flex-column align-items-center justify-content-center">
-                        <p>{{ title }}</p>
-                        <p>{{ credits }}</p>
-                    </div>
-                </div>
+        <div class="foodie container">
+            <p class="m-3 text-uppercase fs-5 text-center">foodie journal</p>
+            <div class="d-flex flex-row justify-content-around align-items-center">
+                <CardJumbo class="d-flex flex-column" v-for="(item, index) in store.foodieJournal" :key="item.id" :title="item.title" :credits="item.credits" :image="item.image"/>
             </div>
-        </div> -->
+        </div>
     </div>
 </template>
 
 <script>
     import {store} from '../data/store';
+    import CardJumbo from './CardJumbo.vue';
     export default{
         name: 'MainJumbo',
-        props: [
-            'title',
-            'credits',
-            'image'
-        ],
+        components:{
+            CardJumbo,
+        },
         data(){
             return {
                 store,
@@ -47,7 +38,7 @@
     .ad-container{
         width: 100%;
         background-color: #f5f5f1;
-        border: 1px solid black;
+        // border: 1px solid black;
     }
     .image-jumbo{
         width: 100%;
@@ -79,12 +70,12 @@
         text-align: center;
         z-index: 100;
     }
-    // .foodie{
-    //     border: 1px solid black;
-    //     background-color: white;
-    //     position: absolute;
-    //     top: 90%;
-    //     left: 6%;
-    // }
+    .foodie{
+        // border: 1px solid black;
+        background-color: white;
+        position: relative;
+        top: -90px;
+        padding-top: 15px;
+    }
 
 </style>
