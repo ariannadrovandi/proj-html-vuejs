@@ -40,7 +40,15 @@
         .title{
             text-align: center;
             font-size: 16px;
+            margin: 0;
+            
         }
+    }
+    .title:hover{
+        width: 220px;
+        height: 30px;
+        background-color: $deep-orange;
+        color: $white;
     }
     
 </style>

@@ -42,7 +42,6 @@
     @use '../assets/styles/partials/variables' as *;
     .right{
         width: 33%;
-        border: 1px black solid;
         .ad-content{
             text-align: end;
             align-items: end;
@@ -80,7 +79,7 @@
                     text-align: center;
                     position: relative;
                     top: -80px;
-                    right: -36px;
+                    right: -38px;
                 };
                 button{
                     width: 390px;
