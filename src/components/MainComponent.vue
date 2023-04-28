@@ -5,6 +5,7 @@
     <CulinaryCollection/>
     <FarmToTable/>
     <FormComponentVue/>
+    <ImagesComponent/>
   </main>
 </template>
 
@@ -14,6 +15,7 @@
     import CulinaryCollection from './CulinaryCollection.vue';
     import FarmToTable from './FarmToTable.vue';
     import FormComponentVue from './FormComponent.vue';
+    import ImagesComponent from './ImagesComponent.vue';
     export default {
         name:'MainComponent',
         components:{
@@ -22,6 +24,7 @@
           CulinaryCollection,
           FarmToTable,
           FormComponentVue,
+          ImagesComponent
         }
     }
 
