@@ -64,7 +64,7 @@
     .title{
         position: absolute;
         top: 30%;
-        left: 34%;
+        left: 30%;
         background-color: $white;
         border-radius: 8px;
         font-family: 'Playfair Display', serif;
