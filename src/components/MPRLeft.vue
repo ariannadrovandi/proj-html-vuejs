@@ -68,7 +68,7 @@
         background-color: $deep-orange;
     }
     .container:hover .overlay {
-        opacity: 1;
+        opacity: 0.6;
     }
     .text {
         color: white;
@@ -80,5 +80,5 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
-        }
+    }
 </style>
