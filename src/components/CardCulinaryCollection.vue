@@ -26,9 +26,10 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .card{
         border: none;
-        background-color: white;
+        background-color: $white;
         width: 280px;
         align-items: center;
         justify-content: center;

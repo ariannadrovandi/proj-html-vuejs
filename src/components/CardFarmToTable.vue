@@ -1,5 +1,5 @@
 <template>
-    <div class="card m-2">
+    <div class="card">
         <div class="card-image">
             <img :src="(image)" :alt="title">
         </div>
@@ -12,7 +12,7 @@
 
 <script>
     export default {
-        name: 'CardJumbo',
+        name: 'CardFarmToTable',
         props: [
             'title',
             'credits',
@@ -24,6 +24,9 @@
 <style lang="scss" scoped>
     @use '../assets/styles/partials/variables' as *;
     .card{
+        width: 45%;
+        margin-right: 40px;
+        margin-top: 40px;
         border: none;
         font-family: 'Playfair Display', serif;
         img{
@@ -32,7 +35,7 @@
         };
         .title{
             text-align: center;
-            font-size: 24px;
+            font-size: 22px;
         }
     }
     

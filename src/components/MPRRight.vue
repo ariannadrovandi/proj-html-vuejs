@@ -19,6 +19,7 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .ad-image{
         display: flex;
         flex-direction: row;

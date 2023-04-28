@@ -23,6 +23,7 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .ad-fs{
         font-size: 13px;
     }
@@ -30,10 +31,10 @@
         list-style: none;
     }
     .ad-badge{
-        background-color: orange;
-        color: white;
+        background-color: $deep-orange;
+        color: $white;
     }
     i{
-        color: gray;
+        color: $dark-gray;
     }
 </style>

@@ -19,6 +19,7 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .card{
         width: 50%;
         .card-title{
@@ -33,8 +34,8 @@
             font-size: 16px;
         };
         .btn{
-            background-color: orange;
-            color: white;
+            background-color: $deep-orange;
+            color: $white;
             font-size: 14px;
         }
     }

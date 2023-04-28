@@ -4,6 +4,7 @@
     <PopularRecipes/>
     <CulinaryCollection/>
     <FarmToTable/>
+    <FormComponentVue/>
   </main>
 </template>
 
@@ -12,6 +13,7 @@
     import PopularRecipes from './PopularRecipes.vue';
     import CulinaryCollection from './CulinaryCollection.vue';
     import FarmToTable from './FarmToTable.vue';
+    import FormComponentVue from './FormComponent.vue';
     export default {
         name:'MainComponent',
         components:{
@@ -19,6 +21,7 @@
           PopularRecipes,
           CulinaryCollection,
           FarmToTable,
+          FormComponentVue,
         }
     }
 
@@ -26,8 +29,9 @@
 </script>
 
 <style lang="scss" scoped>
+  @use '../assets/styles/partials/variables' as *;
     main{
-        background-color: #f5f5f1;
+        background-color: $light-gray;
     }
 </style>
 

@@ -31,6 +31,7 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     ul{
         list-style: none;
         li{
@@ -38,12 +39,12 @@
             margin-right: 35px;
             border-bottom: 3px solid transparent;
             :hover{
-                color: orange;
-                border-bottom: 3px solid orange;
+                color: $deep-orange;
+                border-bottom: 3px solid $deep-orange;
             }
             a{
                 text-decoration: none;
-                color: black;
+                color: $black;
             }
         }
     }

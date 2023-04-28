@@ -25,6 +25,7 @@ import {store} from '../data/store';
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .container{
         margin-top: 140px;
     }

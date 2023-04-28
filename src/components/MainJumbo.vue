@@ -35,9 +35,10 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .ad-container{
         width: 100%;
-        background-color: #f5f5f1;
+        background-color: $light-gray;
         // border: 1px solid black;
     }
     .image-jumbo{
@@ -48,7 +49,7 @@
         background-size: cover;
     }
     .ad-badge{
-        background-color: orange;
+        background-color: $deep-orange;
         text-align: center;
         position: absolute;
         left: 46%;
@@ -64,7 +65,7 @@
         position: absolute;
         top: 30%;
         left: 34%;
-        background-color: white;
+        background-color: $white;
         border-radius: 8px;
         font-family: 'Playfair Display', serif;
         text-align: center;
@@ -72,7 +73,7 @@
     }
     .foodie{
         // border: 1px solid black;
-        background-color: white;
+        background-color: $white;
         position: relative;
         top: -90px;
         padding-top: 15px;

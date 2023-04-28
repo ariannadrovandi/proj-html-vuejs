@@ -30,10 +30,11 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .container{
         margin-top: 40px;
-        color: black;
-        background-color: #f5f5f1;
+        color: $black;
+        background-color: $light-gray;
     }
     h2{
         font-size: 16px;
@@ -47,6 +48,6 @@
     }
     .ad-container{
         width: 50%;
-        border: 1px solid black;
+        border: 1px solid $black;
     }
 </style>

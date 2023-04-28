@@ -18,10 +18,11 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     header{
         width: 100%;
         height: 250px;
-        background-color: #fff;
+        background-color: $white;
         z-index: 10000;
     }
 </style>

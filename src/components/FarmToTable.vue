@@ -12,6 +12,7 @@
         <div class="mt-5 d-flex justify-content-between">
             <FTTLeft/>
             <FTTRight/>
+            
         </div>
     </div>
 </template>
@@ -35,13 +36,14 @@
 </script>
 
 <style lang="scss" scoped>
+    @use '../assets/styles/partials/variables' as *;
     .container{
         margin-top: 100px;
     }
     .button{
         button{
-            color: white;
-            background-color: orange;
+            color: $white;
+            background-color: $deep-orange;
         }
     }
 </style>

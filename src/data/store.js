@@ -97,5 +97,43 @@ export const store = reactive({
             image:'/img/quick-easy-recipes.png',
             title: 'QUICK & EASY',
         },
-    ]
+    ],
+    farmToTableCard: [
+        {
+            id: 1,
+            image: '/img/fi-roundup-200x132.jpg',
+            title: 'Roundup: My New Favorite Recipes For Healthy Living',
+            credits: 'By admin | March 25th, 2019'
+        },
+        {
+            id: 2,
+            image: '/img/fi-korean-food-200x132.jpg',
+            title: 'Meal Prep, Korean Bibimbap with Kimchi',
+            credits: 'By admin | March 25th, 2019'
+        },
+        {
+            id: 3,
+            image: '/img/fi-toasts-200x132.jpg',
+            title: 'Why These Toast with Tea are My New Favorite',
+            credits: 'By admin | March 25th, 2019'
+        },
+        {
+            id: 4,
+            image: '/img/fi-street-food-200x132.jpg',
+            title: 'Exploring Street Food in Bangkok',
+            credits: 'By admin | March 25th, 2019'
+        },
+        {
+            id: 5,
+            image: '/img/fi-organic-breakfast-200x132.jpg',
+            title: 'Organic Choices for Healthier Living',
+            credits: 'By admin | March 25th, 2019'
+        },
+        {
+            id: 6,
+            image: '/img/fi-water-side-rest-200x132.jpg',
+            title: '5 Watherside Restaurants in Istanbul for Special Events',
+            credits: 'By admin | March 25th, 2019'
+        }
+    ],
 })
