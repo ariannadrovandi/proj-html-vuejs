@@ -57,6 +57,8 @@
             width: 25%;
         }
         .logo{
+            margin-bottom: 40px;
+            border-right: dotted $dark-gray;
             img{
                 width: 230px;
                 margin-bottom: 40px;
@@ -75,6 +77,8 @@
             }
         }
         .list{
+            margin-bottom: 40px;
+            border-right: dotted $dark-gray;
             ul{
                 list-style: none;
                 margin-left: 5px;
@@ -88,6 +92,8 @@
             }
         }
         .contact{
+            margin-bottom: 40px;
+            border-right: dotted $dark-gray;
             ul{
                 list-style: none;
                 margin-left: 5px;
