@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <div class="container">
+        <div class="container1">
             <img src="/img/Yogurt-Nan-200x132.jpg">
             <div class="overlay">
                 <a href="#" class="text"><i class="fa-solid fa-link"></i></a>
@@ -45,7 +45,7 @@
             font-size: 14px;
         }
     }
-    .container {
+    .container1 {
         position: relative;
         padding: 0;
     }
@@ -67,7 +67,7 @@
         transition: .5s ease;
         background-color: $deep-orange;
     }
-    .container:hover .overlay {
+    .container1:hover .overlay {
         opacity: 0.6;
     }
     .text {

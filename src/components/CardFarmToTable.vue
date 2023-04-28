@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="card-image">
-            <div class="container">
+            <div class="container1">
                 <img :src="(image)" :alt="title">
                 <div class="overlay">
                     <a class="text" href="#"><i class="fa-solid fa-link"></i> <br> {{ title }}</a>
@@ -47,7 +47,7 @@
     a{
         text-decoration: none;
     }
-    .container {
+    .container1 {
         position: relative;
         padding: 0;
     }
@@ -69,7 +69,7 @@
         transition: .5s ease;
         background-color: $deep-orange;
     }
-    .container:hover .overlay {
+    .container1:hover .overlay {
         opacity: 0.6;
     }
     .text {
