@@ -1,6 +1,6 @@
 <template>
     <div class="container d-flex flex-row align-items-center">
-        <div>
+        <div class="arrow">
             <a href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
         </div>
         <div class="text">
@@ -20,14 +20,18 @@
     .container{
         padding: 10px;
     }
-    a{
-        i{
-            color: $dark-gray;
-            font-size: 30px;
+    .arrow{
+        width: 5%;
+        a{
+            i{
+                color: $dark-gray;
+                font-size: 30px;
+            }
         }
     }
+    
     .text{
-        margin-left: 320px;
+        width: 95%;
         p{
             margin-bottom: 20px;
             padding: 0;
