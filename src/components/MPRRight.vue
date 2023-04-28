@@ -25,8 +25,9 @@
         flex-direction: row;
         flex-wrap: wrap;
         img{
-            width: 250px;
-            height: 150px;
+            margin: 20px;
+            width: 300px;
+            height: 200px;
         }
     }
 </style>

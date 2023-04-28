@@ -48,6 +48,6 @@
     }
     .ad-container{
         width: 50%;
-        border: 1px solid $black;
+        // border: 1px solid $black;
     }
 </style>
