@@ -4,7 +4,7 @@
         <p class="text-center mt-4 mb-5">Aliquam erat volutpat. Ut quis liguala a magna blandit finibus. Suspendisse <br> maximus lacus non nunc lacinia lobortis</p>
         <div class="mt-5 d-flex justify-content-between">
             <MPRLeft/>
-            <div>
+            <div class="ad-width d-flex flex-row flex-wrap">
                 <MPRRight class="ad-container " v-for="(item, index) in store.popularRecipes" :img="item.img"/>
             </div>
         </div>
@@ -41,6 +41,9 @@
     p{
         font-weight: 300;
         font-size: 16px;
+    }
+    .ad-width{
+        width: 50%;
     }
     .ad-container{
         width: 50%;

@@ -1,8 +1,8 @@
 <template>
     <div class="col">
         <div class="row ad-image">
-            <div class="">
-                <img :src="(img)" :key="item.id">
+            <div>
+                <img :src="(img)">
             </div>
         </div>
     </div>
@@ -15,7 +15,7 @@
         props: [
             'img'
         ],
-    }
+    };
 </script>
 
 <style lang="scss" scoped>

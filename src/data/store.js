@@ -55,6 +55,7 @@ export const store = reactive({
             img: '/img/r-brooke-lark-96398-unsplash-min-460x295.jpg'
         }
     ],
+    
     culinaryCollection: [
         {
             id: 1,
