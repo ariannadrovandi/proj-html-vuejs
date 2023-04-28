@@ -1,26 +1,29 @@
 <template>
     <div class="card">
-        <img src="/img/Yogurt-Nan-200x132.jpg">
+        <img src="/img/single-post-img3-1200x790.jpg">
         <div class="card-body">
-            <h5 class="card-title">Lunch Favorite with Salad, Naan and Beans</h5>
-            <p class="subtitle">Bakery, featured, Healthy, Latest Recipes, Staff Picks</p>
-            <hr class="line">
+            <h5 class="card-title">Food Corner: Top Japanese Restaurants for Sushi</h5>
+            <p class="subtitle">By admin | March 25th, 2019</p>
+            <hr>
             <p class="card-text lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatibus, hic nesciunt quis, veniam aut quod voluptatum corporis magni mollitia laboriosam sit facere rerum maiores doloribus! Repudiandae ab sequi debitis, animi fugiat expedita consequuntur recusandae necessitatibus nesciunt enim accusamus natus deserunt nam doloribus veritatis facere.</p>
-            <a href="#" class="btn text-uppercase rounded-0">learn more</a>
+            <div class="d-flex flex-row justify-content-between align-items-center">
+                <a href="#" class="ad-link">Read More > </a>
+                <p><i class="fa-regular fa-comments"></i> 0</p>
+            </div>
+            
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'MPRLeft',
-       
+        name: 'FTTLeft',
     }
 </script>
 
 <style lang="scss" scoped>
     .card{
-        width: 50%;
+        width: 60%;
         .card-title{
             font-size: 22px;
             font-family: 'Playfair Display', serif;
@@ -32,10 +35,9 @@
         .card-text{
             font-size: 16px;
         };
-        .btn{
-            background-color: orange;
-            color: white;
-            font-size: 14px;
+        .ad-link{
+            color: black;
+            font-size: 12px;
         }
     }
 </style>

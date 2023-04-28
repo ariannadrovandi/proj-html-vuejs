@@ -3,6 +3,7 @@
     <MainJumbo/>
     <PopularRecipes/>
     <CulinaryCollection/>
+    <FarmToTable/>
   </main>
 </template>
 
@@ -10,12 +11,14 @@
     import MainJumbo from './MainJumbo.vue';
     import PopularRecipes from './PopularRecipes.vue';
     import CulinaryCollection from './CulinaryCollection.vue';
+    import FarmToTable from './FarmToTable.vue';
     export default {
         name:'MainComponent',
         components:{
           MainJumbo,
           PopularRecipes,
           CulinaryCollection,
+          FarmToTable,
         }
     }
 
