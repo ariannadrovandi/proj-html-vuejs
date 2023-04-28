@@ -23,7 +23,10 @@
 
 <style lang="scss" scoped>
     .card{
-        width: 60%;
+        width: 65%;
+        img{
+            height: 550px;
+        }
         .card-title{
             font-size: 22px;
             font-family: 'Playfair Display', serif;

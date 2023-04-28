@@ -11,9 +11,7 @@
         </div>
         <div class="mt-5 d-flex justify-content-between">
             <FTTLeft/>
-            <div class="ad-width d-flex flex-row flex-wrap">
-                <FTTRight/>
-            </div>
+            <FTTRight/>
         </div>
     </div>
 </template>
